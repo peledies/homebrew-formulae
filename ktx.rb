@@ -1,9 +1,9 @@
 class Ktx < Formula
   desc "Script to switch kubernetes contexts and kubectl versions. Additionally, it can be used to sync your configs with LastPass."
   homepage "https://github.com/peledies/ktx"
-  url "https://github.com/peledies/ktx/archive/v0.3.0.tar.gz"
-  sha256 "99fe214d603aa0940309f68cd1491f26133feff5ca0c71abc6e18d33a341beb8"
-  version "v0.3.0"
+  url "https://github.com/peledies/ktx/archive/v0.4.0.tar.gz"
+  sha256 "0d8d04d47be70fb0a60f9485f27ece4acd53e702ab99b20f4544ab9ccafbd670"
+  version "v0.4.0"
 
   def install
     bin.install "ktx" => "ktx"
