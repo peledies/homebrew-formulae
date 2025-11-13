@@ -4,3 +4,4 @@
 - push new code to github
 - cut a new release
 - run the `update-version.sh` script
+- commit and push homebrew-formula code
