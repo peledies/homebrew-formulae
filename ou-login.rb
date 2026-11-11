@@ -7,6 +7,7 @@ class OuLogin < Formula
 
   depends_on "fzf"
   depends_on "yq"
+  depends_on "krew"
 
   def install
     bin.install "ou-login" => "ou-login"
@@ -15,6 +16,10 @@ class OuLogin < Formula
   def caveats
     <<~EOS
       ou-login requires kubectl with the openunison-cli plugin.
+      Install it with krew (https://krew.sigs.k8s.io):
+
+        kubectl krew install openunison-cli
+
       Hosts are configured in ~/.config/openunison-config.yaml:
 
         hosts:

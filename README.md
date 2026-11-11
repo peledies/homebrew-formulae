@@ -11,6 +11,12 @@ brew install ou-login
 | `ktx` | https://github.com/peledies/ktx |
 | `ou-login` | https://github.com/peledies/ou-login |
 
+`ou-login` requires the [openunison-cli](https://github.com/TremoloSecurity/openunison-cli) kubectl plugin. Install it with [krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/):
+
+```
+kubectl krew install oulogin
+```
+
 ## Updating the version
 
 - update the version variable in the script (`KTX_VERSION` in `ktx`, `OU_LOGIN_VERSION` in `ou-login`)
