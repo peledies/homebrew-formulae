@@ -1,9 +1,9 @@
 class OuLogin < Formula
   desc "Log in to OpenUnison Kubernetes clusters and rename the kubeconfig context"
   homepage "https://github.com/peledies/ou-login"
-  url "https://github.com/peledies/ou-login/archive/v0.1.1.tar.gz"
-  sha256 "06d92d5ede06eda684d7d7ad0538fad1818e5a6ee9718bc0fda095ee31aac247"
-  version "v0.1.1"
+  url "https://github.com/peledies/ou-login/archive/v0.1.2.tar.gz"
+  sha256 "797422f65d976e63fb1935ee5c1e2fb379c2a18c2ee0c151ecf4057e35ea2a09"
+  version "v0.1.2"
 
   depends_on "fzf"
   depends_on "yq"
